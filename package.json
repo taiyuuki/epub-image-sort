@@ -1,0 +1,21 @@
+{
+  "name": "epub-image-sort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sort":"ts-node index.js"
+  },
+  "keywords": ["epub","漫画图片提取"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.11",
+    "epub": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/epub": "^0.0.7",
+    "@types/node": "^18.0.0",
+    "ts-node": "^10.8.1"
+  }
+}
